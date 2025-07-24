@@ -40,6 +40,26 @@
   animation: spin-slow 10s linear infinite;
 }
 
+::-webkit-scrollbar {
+	width: 8px;
+	height: 8px;
+}
+
+::-webkit-scrollbar-track {
+	background: #1e1e2f;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #4ade80; /* Green-400 */
+	border-radius: 4px;
+	border: 2px solid #1e1e2f;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background-color: #22c55e; /* Green-500 */
+}
+
+/* Smooth Scrolling */
 html {
-  scroll-behavior: smooth;
+	scroll-behavior: smooth;
 }
